@@ -1,0 +1,7 @@
+
+<h1>Welcome to the Laser Gun Range!</h1>
+<a href = "home.jsp" > home </a>&nbsp;&nbsp;
+<a href="Targets.jsp">targets</a>&nbsp;&nbsp;
+<a href="admin.jsp">admin<a/>&nbsp;&nbsp;
+<a href="settings.jsp">settings</a>
+<p/>

@@ -1,0 +1,43 @@
+{   "MQTTConfig":{
+        "broker": "tcp://192.168.1.238:1884",
+        "user": "",
+        "password": ""
+    },
+
+    "Guns": {
+        "Devices": [
+            {"host": "ESPA1234", "id": "1"},
+            {"host": "ESPB2345","id": "2"}
+        ]
+    },
+
+    "Targets": {
+        "Columns": 6,
+        "Devices": [
+            {"host": "ESP-AA6B1C", "id": "1A"},
+            {"host": "ESP-04ED40", "id": "2A"},
+            {"host": "ESP-290532", "id": "3A"},
+            {"host": "ESP-04ECFD", "id": "4A"},
+            {"host": "ESP-88E8EA", "id": "5A"},
+            {"host": "ESP-59E4E5", "id": "6A"},
+            {"host": "ESP-59E4D5", "id": "1B"},
+            {"host": "ESP-59E510", "id": "2B"},
+            {"host": "ESP-04ED1C", "id": "3B"},
+            {"host": "ESP-04ECFB", "id": "4B"},
+            {"host": "ESP-8A1E7F", "id": "5B"},
+            {"host": "ESP-88E91E", "id": "6B"},
+            {"host": "ESP-04ED4A", "id": "1C"},
+            {"host": "ESP-AA6AEE", "id": "2C"},
+            {"host": "ESP-04ECD2", "id": "3C"},
+            {"host": "ESP-AA6AF9", "id": "4C"},
+            {"host": "ESP-8A1E81", "id": "5C"},
+            {"host": "ESP-8A1E79", "id": "6C"},
+            {"host": "ESP-04ED10", "id": "1D"},
+            {"host": "ESP-59E4DD", "id": "2D"},
+            {"host": "ESP-04ECD4", "id": "3D"},
+            {"host": "ESP-59E4DE", "id": "4D"},
+            {"host": "ESP-88E924", "id": "5D"},
+            {"host": "ESP-88E939", "id": "6D"}
+        ]
+    }
+}

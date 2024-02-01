@@ -1,0 +1,13 @@
+<jsp:useBean id="boss" scope="application" class="com.gameboss.gamebossweb.GameBossBean" />
+
+<%
+    if (!boss.isIsInitialized()) {
+        String pathToJson = getServletConfig().getServletContext().getRealPath("/WEB-INF");
+        boss.initialize(pathToJson);
+    }
+    if(boss.isIsInitialized() && !boss.isIsConnected()){
+        boss.Connect();
+    }
+    
+
+%>

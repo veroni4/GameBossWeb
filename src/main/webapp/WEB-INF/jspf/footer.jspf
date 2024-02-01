@@ -1,0 +1,29 @@
+
+<table border="1">
+    <tbody>
+        <tr>
+            <td><b>MQTT</b></td>
+            <td>
+                <%=(boss.isIsConnected() ? "CONNECTED" : "NOT CONNECTED")%>
+            </td>
+            <td><b>GAME</b>
+            </td>
+            <td>
+                <%if (boss.getCurrentGame() != null) {%>
+                <%=(boss.getCurrentGame().getGameName())%>
+                <% }%>
+            </td>
+            <td>
+                <b>TIME</b>
+            </td>
+            <td>
+                <% 
+                    if (boss.getCurrentGame() != null) { %>
+                    <%=boss.getCurrentGame().getCurrentGameSecondsRemStr()%>
+                 <%   }  %>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
